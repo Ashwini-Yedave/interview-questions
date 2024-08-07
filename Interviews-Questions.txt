@@ -1,0 +1,79 @@
+===========Angular==========
+*domain -E-commerace,banking ,airline,network ,Sequrity, Finance ,cargo, insurance
+*Application - 
+develop, 
+build ,
+where is ci/cd pipeline,
+yaml
+Q-diffrence between Angular and react.js
+Q-what is low level-design & high-level design
+Q- use draw.io to show the project structure
+Q-what challenge you face -one css black circle
+
+
+===============Angular + javascript========6/Agust/2024
+Q-intercepetr,filter,pure impure pipe
+Q-what is directiveS IN ANGUALR 
+Q-what are the types of routing
+Q-what are types of pipe
+Q-what is depedancy injection
+Q-how to share the data between the sibling component there no relation between two compon
+Q-what is intercepter
+
+
+Q.tell mi the output of given code?
+// let array = [5,1,2,3,4];
+// array = array.filter((x) => x > 2);
+// console.log(array);
+// array = array.filter((x) => x <4);
+// console.log(array);
+
+
+Q.reverse the given string INIWHSA
+var str="INIWHSA";
+var reverseString='';
+for(let i=str.length-1;i>=0;i--){
+    
+    reverseString+=str[i];
+}
+console.log(reverseString);
+
+ 
+Q.how to access the those key which is isNotified": true by using filter
+res={
+  "totalCount": 18,
+  "index": 1,
+  "pageSize": 100,
+  "pageCount": 1,
+  "supplierDetails": [
+    {
+      "id": 1,
+      "supplierId": 12930,
+      "isNotified": true,
+   },
+    {
+      "id": 2,
+      "supplierId": 12930,
+      "isNotified": false,
+    },
+    {
+      "id": 3,
+      "supplierId": 12930,
+      "isNotified": true,
+    }
+  ],
+  "result": 1
+};
+
+
+}
+
+Q .how to merge the two object
+{
+  name:"anis",
+  email:"anis@gmail.com"
+}
+
+{
+  phone:8788787878,
+}
