@@ -90,6 +90,10 @@ Q. diff between sync and async in js
 Q. js is sync?
 Q. how to declare the two div inside the one row without css
 Q.what is promises?
+Q. diff between == and ===?
+Q. what is o/p of 1==='1'?   //false
+Q. what is o/p of 1===true?  //false
+Q. what is o/p of '5'==='1'?  //false
 
 practical Questions :-
 Q. find the only names given object
@@ -118,4 +122,6 @@ Answer :-
 
 Q. if i have thousands of api and i want pass same id in post request then how to do?
 ans => If you have thousands of APIs and you want to pass the same ID in each API request, you can automate the process using a loop or a batch request handler depending on the environment you're working in.
+
+
     
