@@ -77,3 +77,45 @@ Q .how to merge the two object
 {
   phone:8788787878,
 }
+
+
+
+==================Angular + js + html ============= 4-October-2024/kiya.ai (company)
+Q. what is diff between div and span.
+    * div is used for display the block of content and
+    * div take full screen width/row
+    * span is used for particular content span is inline tag ex..<p> hello <span style="color:red"> world </span> </p>
+    * span take a as per required width
+Q. diff between sync and async in js
+Q. js is sync?
+Q. how to declare the two div inside the one row without css
+Q.what is promises?
+
+practical Questions :-
+Q. find the only names given object
+let data = [
+    {
+    name : 'Anna',
+    books : ['Romie & Juliets', 'Harry Potter'],
+    age : 21
+    },
+      {name : 'Bob',
+    books : ['War & peace', 'Bibel'],
+    age : 21
+    },
+      {name : 'Krishna',
+    books : ['Bhagwad Geeta', 'Mahabharat'],
+    age : 21
+    }
+    ]
+    // /p : [ 'Romie & Juliets', 'Harry Potter', 'War & peace', //'Bibel', 'Bhagwad Geeta', 'Mahabharat' ]
+
+Answer :-  
+1) const allBooks = data.map(person => person.books);  //by using map we can print all books name but they print speretaly each object
+   console.log(allBooks);
+2)  const allBooks = data.map(person => person.books).flat();  //this line print all in one array by usin g flat
+     console.log(allBooks); 
+
+Q. if i have thousands of api and i want pass same id in post request then how to do?
+ans => If you have thousands of APIs and you want to pass the same ID in each API request, you can automate the process using a loop or a batch request handler depending on the environment you're working in.
+    
