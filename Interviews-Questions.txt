@@ -11,7 +11,7 @@ Q- use draw.io to show the project structure
 Q-what challenge you face -one css black circle
 
 
-===============Angular + javascript========6/Agust/2024
+===============Angular + javascript========Wsfx global pay========6/Agust/2024
 Q-intercepetr,filter,pure impure pipe
 Q-what is directiveS IN ANGUALR 
 Q-what are the types of routing
@@ -77,3 +77,42 @@ Q .how to merge the two object
 {
   phone:8788787878,
 }
+
+
+
+
+============================Angular + javascript=================kiya.ai===========7-October-2024
+
+Q.1] what is diff between promises and observable?
+Q.2] what diff split and sprad oprator?
+Q.3] what is mergmap oprator in rxjs?
+Q.4] whta is interceptor?
+Q.5] what is call,apply in js?
+Q.6] what diff in session storage and local storage?
+Q.7] what is diff in post and put? and can we use the post for add and update data? how?
+Q.8] if i have one empty array and want create one another empty array ten how to do?
+Q.9] what is pure and impure pipe?
+Q.10] how to create the custome pipe and which method is used for create the ustome pipe?
+Q.11] if i have two components A,B and one service i want the access the service in  both components then how many object is required ?
+
+Coding Question 
+Q1. i have one bject and i want print the only books name then  how to do
+      { 
+
+         " users" :[
+            {
+              name:"Ashwini", 
+              Books:[ " baguath  geeta",  "ramayan ", " Ajinkytara" ] 
+            } ,
+            {
+              name:"Ashwini", 
+              Books:[ " pancyat",  "ramlala ", " Ajinkytara" ] 
+            }
+]
+      }
+
+
+Q2. i/p= a1b2c4
+    o/p= abbcccc
+
+
