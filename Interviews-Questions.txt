@@ -95,24 +95,53 @@ Q.9] what is pure and impure pipe?
 Q.10] how to create the custome pipe and which method is used for create the ustome pipe?
 Q.11] if i have two components A,B and one service i want the access the service in  both components then how many object is required ?
 
-Coding Question 
-Q1. i have one bject and i want print the only books name then  how to do
-      { 
 
-         " users" :[
-            {
-              name:"Ashwini", 
-              Books:[ " baguath  geeta",  "ramayan ", " Ajinkytara" ] 
-            } ,
-            {
-              name:"Ashwini", 
-              Books:[ " pancyat",  "ramlala ", " Ajinkytara" ] 
-            }
-]
-      }
-
-
-Q2. i/p= a1b2c4
+Q2. i/p= a1b2c4 this string convert into below output
     o/p= abbcccc
 
 
+==================Angular + js + html ============= 4-October-2024/kiya.ai (company)
+Q. what is diff between div and span.
+    * div is used for display the block of content and
+    * div take full screen width/row
+    * span is used for particular content span is inline tag ex..<p> hello <span style="color:red"> world </span> </p>
+    * span take a as per required width
+Q. diff between sync and async in js
+Q. js is sync?
+Q. how to declare the two div inside the one row without css
+Q.what is promises?
+Q. diff between == and ===?
+Q. what is o/p of 1==='1'?   //false
+Q. what is o/p of 1===true?  //false
+Q. what is o/p of '5'==='1'?  //false
+
+practical Questions :-
+Q. find the only names given object
+let data = [
+    {
+    name : 'Anna',
+    books : ['Romie & Juliets', 'Harry Potter'],
+    age : 21
+    },
+      {name : 'Bob',
+    books : ['War & peace', 'Bibel'],
+    age : 21
+    },
+      {name : 'Krishna',
+    books : ['Bhagwad Geeta', 'Mahabharat'],
+    age : 21
+    }
+    ]
+    // /p : [ 'Romie & Juliets', 'Harry Potter', 'War & peace', //'Bibel', 'Bhagwad Geeta', 'Mahabharat' ]
+
+Answer :-  
+1) const allBooks = data.map(person => person.books);  //by using map we can print all books name but they print speretaly each object
+   console.log(allBooks);
+2)  const allBooks = data.map(person => person.books).flat();  //this line print all in one array by usin g flat
+     console.log(allBooks); 
+
+Q. if i have thousands of api and i want pass same id in post request then how to do?
+ans => If you have thousands of APIs and you want to pass the same ID in each API request, you can automate the process using a loop or a batch request handler depending on the environment you're working in.
+
+
+    
