@@ -143,5 +143,37 @@ Answer :-
 Q. if i have thousands of api and i want pass same id in post request then how to do?
 ans => If you have thousands of APIs and you want to pass the same ID in each API request, you can automate the process using a loop or a batch request handler depending on the environment you're working in.
 
+13/12/2024
+Interview Questions from the Angular Project
+
+1.subject and subject Behavior
+ans=in subject we can't initialize the value but we intialize with the subject behavior
+
+2.how we can justifiy the particular code is a write in which framwork
+ans = mostly we use the router-outlet for the Angular only
+
+3.ans= version 15 of angular enviorment file is by default present in a project but after the 15v they remove the by default 
+
+4.ans= params gives the in return observable.
+
+5.ans = in template driven form we cant declare form the without the form tag but we use the form tag for the create the of the group of the form the controller
+#form="form_name" .
+* and also we use the for the set the validation of controllers.
+
+6. ans=  whenver we first time send the data from fronend to backend we that primary id will be the 0.
+
+7. ans = what is gui id
+
+8. ans =  we can also send the data with get method by using the parameter
+
+9. ans = we use the constructopr for the set the default value and the declare the service and dependacy injcetion
+
+10. ans = if passing the data wrong that error is comming the (bad reqest).
+
+11. ans = depend on the backend developer api we can send the id or object
+
+12. ans =  what is destructring in  the javascript
+
+13. ans = what is centralize error handling
 
     
