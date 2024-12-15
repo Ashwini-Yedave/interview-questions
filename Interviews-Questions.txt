@@ -176,4 +176,57 @@ ans = mostly we use the router-outlet for the Angular only
 
 13. ans = what is centralize error handling
 
-    
+//destructring treditional way with object
+console.log("Try programiz.pro");
+user={
+    firstName : "Ashwini",
+    lastName : "yedave",
+    address:{
+        city:"pune",
+        country: "india"
+    }
+}
+//traditional way to access
+const firstName = user.firstName;
+console.log("first name :",firstName);
+
+//modern way and and also we access the multiple property
+const {firstName,lastName} = user;
+console.log("first name :",firstName + " " + lastName);
+
+
+//also if any property was not defined or we want the use any then we can defined and with default value
+//with deafult value ex..age
+const {firstName,lastName,age=23} = user;
+console.log("first name :",firstName + " " + lastName);
+console.log("age is :",age):
+
+//if any property name is big to when access time problem then we can give also alise name
+ex..firstName
+const {firstName:fname,lastName,age=23} = user;
+console.log("first name with alise name :",fname + " " + lastName);
+
+//we can also access nested value easilly 
+ex..city from address nested object
+
+const {firstName:fname,lastName, age=10 , address: {city}} = user;
+console.log("first name :",fname + " " + lastName);
+console.log("city from address :", city);
+
+output/
+first name with alise name: Ashwini yedave
+age  : 23
+city from nested address object : pune
+
+
+*****rest oprator with destructuring
+
+if we want the caccess the only one parameter from the object and rest of object want as it is then how to use
+const {firstName,...userInfo}=user;
+console.log("first name :", firstName);
+console.log("rest of object :",userInfo);
+
+output/
+first name ...: Ashwini
+rest of object : { lastName: 'yedave', address: { city: 'pune', country: 'india' } }
+
