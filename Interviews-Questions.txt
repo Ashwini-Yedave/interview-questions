@@ -1,3 +1,18 @@
+Format: MAJOR.MINOR.PATCH
+For 6.6.0, the parts are:
+
+
+| Part  | Value | Name              | What It Means                                             |
+| ----- | ----- | ----------------- | --------------------------------------------------------- |
+| Major | `6`   |  Major version**  | Introduces breaking changes — not backward-compatible     |
+| Minor | `6`   | **Minor version** | Adds new features — **backward-compatible** changes       |
+| Patch | `0`   | **Patch version** | Bug fixes — no API changes, still **backward-compatible** |
+
+
+
+
+
+
 ===========Angular==========
 *domain -E-commerace,banking ,airline,network ,Sequrity, Finance ,cargo, insurance
 *Application - 
