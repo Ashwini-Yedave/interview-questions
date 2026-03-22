@@ -150,6 +150,7 @@ Accenture(28-feb-2026)
 10. what is control flow?
 11. explain the Rxjs methods?
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 Revalsys technologies(feb 1)
 1. What is Angular ?
