@@ -133,3 +133,38 @@ angular 16
 download vs code
 install the tailwindcss
 install bootstrap
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Accenture(28-feb-2026)
+
+1. how to know the when ngDestroy is called in project?
+2. how to stop memory leaks?
+3. tell me About angular life cycle hooks
+4. when we redirected to one component to another then cal the ngOnInit()? or vs on click of back button called the ngOnInit?
+5. in Rxjs what are you used?
+6. What is new features in Angular 16/17?
+7. which version you worked on and tell me feature about that version?
+8. how to consume api --> write a code
+9. where is first time getting data in api(service or in after subscriber)?
+10. what is control flow?
+11. explain the Rxjs methods?
+
+
+Revalsys technologies(feb 1)
+1. What is Angular ?
+2. what is signals?
+3. which version you worked on?
+4. what is directives? explain about custome directives
+5. what is SSR?
+6. What is dynamic Routing?
+7. how to manage meta tags dynamically in the Angular?
+8. how to impact large image on project  performance?
+9. What is hidreation?
+10. what is microforntend?
+11. What is lighthouse matrix?
+12. how does works change detection in Angular?
+13. What are the access neccsary to widows or document and what happen if used direct?
+14. how to handle subscription to avoid memory leaks?
+15. if you give the 4 projects then how you find the which project make in angular via browser?
+16. 
