@@ -140,15 +140,28 @@ Accenture(28-feb-2026)
 
 1. how to know the when ngDestroy is called in project?
 2. how to stop memory leaks?
-3. tell me About angular life cycle hooks
-4. when we redirected to one component to another then cal the ngOnInit()? or vs on click of back button called the ngOnInit?
-5. in Rxjs what are you used?
-6. What is new features in Angular 16/17?
-7. which version you worked on and tell me feature about that version?
-8. how to consume api --> write a code
-9. where is first time getting data in api(service or in after subscriber)?
-10. what is control flow?
-11. explain the Rxjs methods?
+-->  “To prevent memory leaks, I make sure to clean up resources when components are destroyed. In Angular, that mainly means unsubscribing from RxJS observables using takeUntil or async pipe, removing event listeners, clearing timers, and avoiding unnecessary global references. I typically use ngOnDestroy() to handle cleanup.”
+   eg.. use the sync pipe
+   users$ = this.dataService.getUsers();
+html-->
+<div *ngFor="let user of users$ | async">
+The async pipe:
+Subscribes automatically
+Triggers the API call
+Updates UI with data
+Unsubscribes on destroy
+
+note- no need to subscribe in the ts 
+   
+4. tell me About angular life cycle hooks
+5. when we redirected to one component to another then cal the ngOnInit()? or vs on click of back button called the ngOnInit?
+6. in Rxjs what are you used?
+7. What is new features in Angular 16/17?
+8. which version you worked on and tell me feature about that version?
+9. how to consume api --> write a code
+10. where is first time getting data in api(service or in after subscriber)?
+11. what is control flow?
+12. explain the Rxjs methods?
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
