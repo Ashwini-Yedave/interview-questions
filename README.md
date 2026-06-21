@@ -211,6 +211,8 @@ Role - Fullstack Developer
 19. how we handle the large amount data in angular
 20 css question-->
   where we use abstraction and relative position
+21. how shared data to component to component
+
 
 21. what is oops
 22. what is collection
@@ -223,6 +225,7 @@ Role - Fullstack Developer
 29. basic crud operation
 30. how to connect with database
 31. can we create the object of parent class in child class vs
+32. What is Dependency Injection?
 
 
 
