@@ -165,7 +165,7 @@ note- no need to subscribe in the ts
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-Revalsys technologies(feb 1)
+Revalsys technologies(feb 1/2026)
 1. What is Angular ?
 2. what is signals?
 3. which version you worked on?
@@ -181,4 +181,51 @@ Revalsys technologies(feb 1)
 13. What are the access neccsary to widows or document and what happen if used direct?
 14. how to handle subscription to avoid memory leaks?
 15. if you give the 4 projects then how you find the which project make in angular via browser?
-16. 
+Ans - by checking html have app-file name,ngContent,ngVersion,router-outlet property
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Infosys Interview(20 Jule 2026)
+Role - Fullstack Developer
+
+1. what you do in your current project
+
+2. how to download and install angular what is required things and tell the steps
+3. what is hoisting
+4. what is dependency injection
+5. slice vs plice
+6. constructor vs ngOnInit
+7. how to incarese the performance of the Angular Application
+8. how we use pagination
+9. guards
+10. how works standalone component
+11. what is lazy loading
+12. if in api comes 400 and msg is whatever so how to handle this and check/400 → Bad Request
+13. what is state management/why we use
+14. what is action
+15. what is ngrxjs
+16. what is angular.json & package.json
+17. what is diffrence between the map and filter map
+18. what is lazy loading how we declare lazy loading
+19. how we handle the large amount data in angular
+20 css question-->
+  where we use abstraction and relative position
+
+21. what is oops
+22. what is collection
+23. difference between the list and set
+24. how to crete any class which can access anyone
+25. how to access data from database
+26. features of java 8
+27. how to handle exception in java
+28. tell mi annotations in java
+29. basic crud operation
+30. how to connect with database
+31. can we create the object of parent class in child class vs
+
+
+
+
+
+
