@@ -228,6 +228,81 @@ Role - Fullstack Developer
 32. What is Dependency Injection?
 
 
+.................................................................................
+
+
+Innefu Interview Question(27-september - 2026)
+
+1. introduce yourself
+2. Which Tecnology you Used?
+3. what is closure?
+4. What is Events in Js?
+5. What is Hoisting in JS?
+6. Do you know about map(), filter(), forEach(), find?
+7. Defone ngOnChanges(), ngOnInit()?
+8. Diffrence between Constructor and ngOnInit()?
+9. What is CHnage detection?
+10. What is concatMap() & exsausted()?
+11. What is Debounce Time?
+12. what is distinct?
+13. What is Subject vs behaviourSubject?
+14. let suppose we want to call api 4/5 tomes then how will debug ?
+15. how to stop RxJs memory leaks?
+16. What is takeuntilDestroy?
+17. I got bearer token from backen so that token how to send in every api header?
+18. How to call the one api multiple times?
+19. What is catch error?
+20. What is return statement?
+21. What is throw error block?
+22. 
+
+
+
+******  tell me answer of that below code: -
+1)
+console.log("1");
+ 
+setTimeout(() => {
+
+  console.log("2");
+
+}, 0);
+ 
+Promise.resolve().then(() => {
+
+  console.log("3");
+
+});
+ 
+console.log("4");
+
+..........................
+2)
+console.log(a)
+var a  = 10
+ 
+console.log(b)
+let b = 20
+
+answer
+
+undefined and Cannot access 'b' before initialization	
+
+
+............................................
+
+HSM Edifice Construction Services Pvt Ltd(9 - oct -2026)
+
+1. Can you Comapare Signals with rxjs and when do you use each ?
+2. Can you diffrence between the switch map, large map, concrete map, exhaust map?
+3. How do you prevent memory leaks?
+4. What is hot and cold observables?
+5. Suppose like you are working on the large application and now its too slow. so how do you diagnose?
+6. how do you reduce the initial bundle size ?
+   
+
+ 
+
 
 
 
